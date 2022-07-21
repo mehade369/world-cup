@@ -6,6 +6,16 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+/* center the header */
+header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 .header-row {
   display: flex;
@@ -13,19 +23,19 @@ body {
   align-items: center;
   background: #161616;
   margin: 40px 80px;
+  padding: 20px 40px 0px 40px;
   border-radius: 15px;
 }
 
 .header-row h1 {
   color: white;
   font-size: 2em;
-  padding: 0.5em;
 }
 
 .header-row p {
   color: white;
   font-size: 1em;
-  padding: 0.5em;
+  padding: 20px 20px 20px 0px;
 }
 
 .left-column {
@@ -40,9 +50,7 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 0.5em;
-  margin: 0.5em;
-  font-size: 1em;
+  padding: 10px 20px;
 }
 
 .main-row {
